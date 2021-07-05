@@ -1,0 +1,61 @@
+{
+    "products": [
+        {   
+            "key": "N1",
+            "img": "./src/img/xiaomi.png",
+            "brand": "Xiaomi M365",
+            "desc": "Лучшее соотношение цены и качества на рынке, лёгкий вес и плавный ход.",
+            "price": 27999,
+            "amount": 0,
+            "maxspeed": 25,
+            "maxweight": 100,
+            "power": 300,
+            "frametype": "алюминий",
+            "drivetype": "полный",
+            "batarycapacity": 12800,
+            "oncharge": 45,
+            "weight": 12.5,
+            "width": 1060,
+            "height": 1040,
+            "thickness": 145
+        },
+        {   
+            "key": "N2",
+            "img": "./src/img/xiaomi.png",
+            "brand": "Ninebot Shadow",
+            "desc": "Уверенный среднячок среди самокатов. Подходит для активного времяпровождения.",
+            "price": 20999,
+            "amount": 0,
+            "maxspeed": 25,
+            "maxweight": 100,
+            "power": 350,
+            "frametype": "cталь",
+            "drivetype": "задний",
+            "batarycapacity": 11200,
+            "oncharge": 40,
+            "weight": 13,
+            "width": 1070,
+            "height": 1030,
+            "thickness": 155
+        },
+        {   
+            "key": "N3",
+            "img": "./src/img/xiaomi.png",
+            "brand": "Kayo V2",
+            "desc": "Бюджетный вариант для начинающих. Младшая модель отличается особой надёжностью.",
+            "price": 15999,
+            "amount": 0,
+            "maxspeed": 20,
+            "maxweight": 130,
+            "power": 250,
+            "frametype": "алюминий",
+            "drivetype": "передний",
+            "batarycapacity": 10500,
+            "oncharge": 30,
+            "weight": 14,
+            "width": 1100,
+            "height": 1010,
+            "thickness": 145
+        }
+    ]
+}

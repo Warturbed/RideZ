@@ -1,24 +1,15 @@
-# ridez--vue
+# SPA на Vue.js. Scooter online store project.
 
-## Project setup
-```
-npm install
-```
+### Свёрстан с помощью шаблонизатора PUG, и препроцессора SCSS.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Реализовано:
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Вёрстка перенесена во Vue CLI,
+2. фейковое получение списков продукции с помощью библиотеки axios из файла формата .json во Vuex (пример в db.json).
+3. Роутинг страниц при помощи Vue Router.
+4. отображение элементов характеристик товара по нажатию на карточку товара.
+5. изменение контента корзины в зависимости от наличия/отсутствия товаров.
+6. добавление, удаление элементов каталога в/из корзины. Подсчёт общей стоимости товаров.
+7. вспывающее окно заказа, удаление товаров из корзины при его закрытии.
+8. Табы авторизации/регистрации.
+9. Всплывающее окно при отправке формы.
